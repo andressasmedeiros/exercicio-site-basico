@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Portfólio</title>
+  <link rel="stylesheet" href="./CSS/style.css" />
+  <style>
+    /* Estilos adicionais específicos para os cards do portfólio */
+    .portfolio-container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .card {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      width: 300px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+      background-color: #eee; /* Caso não tenha imagem ainda */
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      color: #004080;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .card a:hover {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfólio</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Sobre Mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfólio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Meus Projetos</h2>
+      <div class="portfolio-container">
+        <!-- Card 1 -->
+        <div class="card">
+          <img src="./img/projeto1.jpg" alt="Projeto Final Módulo 1" />
+          <p>Projeto Final - Módulo 1</p>
+          <a href="https://github.com/andressasmedeiros/projeto_finalM01" target="_blank">Ver no GitHub</a>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="card">
+          <img src="./img/projeto2.jpg" alt="Site Gerenciamento de Farmácia" />
+          <p>Site de Gerenciamento de Farmácia</p>
+          <a href="https://github.com/andressasmedeiros/site-gerenciamento-farmacia" target="_blank">Ver no GitHub</a>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="card">
+          <img src="./img/projeto3.jpg" alt="Meu Portfólio" />
+          <p>Meu Portfólio Web</p>
+          <a href="https://github.com/andressasmedeiros/meu_portfolio" target="_blank">Ver no GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 João Silva</p>
+  </footer>
+</body>
+</html>
