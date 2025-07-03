@@ -65,6 +65,6 @@ Este projeto está sob a licença **MIT**. Sinta-se à vontade para usar e adapt
 
 ---
 
-## 🤝 Autor
+## 🤝 Desenvolvido como exercício no curso DevInHouse
 
-- **Andressa S. Medeiros** – desenvolvedora e autora deste exercício
+- **Andressa S. Medeiros** – desenvolvedora deste exercício
